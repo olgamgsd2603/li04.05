@@ -1,0 +1,10 @@
+
+#!/bin/bash
+USER=Olga
+date +'%D'
+echo "hello $USER!"
+pwd
+ps -ef | tail -n+2 | wc -l
+
+#[ec2-user@ip-172-31-33-20 280323_morning]$ cd /opt/280323_morning/OlgaDirksen
+#[ec2-user@ip-172-31-33-20 OlgaDirksen]$ nano myfirstbashscript.sh
